@@ -68,9 +68,10 @@
         <update_rate>30</update_rate>
         <ray>
           <noise>
+            <!-- Use gaussian noise -->
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.1</stddev>
+            <stddev>0.02</stddev>
           </noise>
 
           <scan>
